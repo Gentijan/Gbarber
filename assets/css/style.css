@@ -523,7 +523,9 @@ footer {
     display: flex;
 }
 
-footer .fa-instagram, .fa-twitter, .fa-facebook {
+footer .fa-instagram,
+.fa-twitter,
+.fa-facebook {
     padding: 3px 4px;
     background-color: #00968783;
     border-radius: 2px;
@@ -531,3 +533,57 @@ footer .fa-instagram, .fa-twitter, .fa-facebook {
 }
 
 /*End Footer*/
+/*Reserve Start*/
+.reserve {
+    font-family: sans-serif;
+    background-image: url(/assets/images/background.jpg);
+    letter-spacing: 1px;
+    font-weight: 400;
+    height: 970px;
+    padding: 10px;
+}
+
+.booking-form {
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #009688bc;
+}
+
+form {
+    font-weight: 600;
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.form-field {
+    justify-content: space-between;
+}
+
+input,
+select {
+    padding: 10px 55px;
+    background-color: #009688bc;
+    border: none;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.booking-btn {
+    width: 20%;
+    cursor: pointer;
+    padding: 7px;
+    background: #009688bc;
+    border: 1px solid #111;
+    text-shadow: 0 2px 4px white;
+    transition: .2s ease-in-out;
+    border-radius: 100px;
+}
+
+.booking-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+}
+
+/*Reserve End*/
