@@ -515,3 +515,19 @@ span {
 }
 
 /*Contact End */
+footer {
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background: lightpink;
+    display: flex;
+}
+
+footer .fa-instagram, .fa-twitter, .fa-facebook {
+    padding: 3px 4px;
+    background-color: #00968783;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+/*End Footer*/
