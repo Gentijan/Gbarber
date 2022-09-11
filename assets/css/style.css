@@ -296,3 +296,106 @@ span {
 }
 
 /*Service end*/
+/*Our Team start*/
+
+.our-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(rgb(238, 100, 196), lightpink);
+}
+
+.card {
+    position: relative;
+    width: 340px;
+    height: 450px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card .circle {
+    position: absolute;
+    top: -130px;
+    width: 100px;
+    height: 500px;
+}
+
+.card .circle::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%
+}
+
+.circle .imgBox {
+    position: absolute;
+    bottom: 0;
+    width: 565px;
+    height: 510px;
+    transform: translateX(-50%);
+}
+
+.imgBox img {
+    padding-top: 100px;
+    width: 850px;
+    height: 750px;
+}
+
+.imgBox img:hover {
+    transform: scale(1.2);
+}
+
+.card .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    padding: 20px 30px;
+    background: lightpink;
+}
+
+.content,
+.fa-instagram,
+.fa-twitter {
+    padding: 2px 4px;
+    background-color: #00968783;
+    border-radius: 2px;
+}
+
+.content h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+.content .textIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.content .textIcon h4 {
+    color: #00968783;
+    font-weight: 400;
+}
+
+.content .textIcon .fa-arrow-right {
+    color: green;
+}
+
+.team-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #00968783;
+    text-align: center;
+    background-color: pink;
+}
+
+/*Our Team end*/
